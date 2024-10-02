@@ -4,6 +4,7 @@ Projet ESGI A3 : Creation of a Programming Language Interpreter
 
 Plan :
 
+
 Semaine 1-2 : Calculatrice de base et entrée simple
 Objectif principal : Implémenter les bases de l’interpréteur avec des expressions arithmétiques et des variables.
 
@@ -25,6 +26,8 @@ Variables et stockage : Crée une table de symboles (comme un dictionnaire ou un
 Étape 4 : Ajout des fonctions intégrées
 Fonction print : Ajoute la fonction print() pour afficher des variables ou des résultats d'expressions.
 Tester avec des cas simples : Teste ton interpréteur avec des exemples simples comme x = 10; print(x); print(5 + 2);.
+
+
 Semaine 2-3 : Gestion des entrées
 Objectif principal : Ajouter différents formats d’entrée pour les instructions (mode fichier et interactif).
 
@@ -37,6 +40,8 @@ Commandes spéciales : Ajoute une commande exit pour quitter le mode interactif.
 Étape 3 : Tests complets
 Combiner tout : Assure-toi que ton interpréteur fonctionne à la fois avec des fichiers et en mode interactif.
 Affichage de l’AST (bonus) : Si tu utilises un AST, ajoute une fonction pour afficher l’arbre de manière lisible.
+
+
 Semaine 3-4 : Structures de contrôle et chaînes de caractères
 Objectif principal : Ajouter des structures de contrôle (boucles, conditions) et la gestion des chaînes de caractères.
 
@@ -52,6 +57,8 @@ Manipulation des chaînes : Implémente la gestion des opérations simples comme
 Étape 4 : Gestion de la portée des variables
 Portée locale vs globale : Implémente un système de portée pour que les variables aient une durée de vie différente en fonction de l’endroit où elles sont définies (dans des boucles, conditions, etc.).
 Piles de symboles : Utilise une pile pour suivre les portées imbriquées des variables.
+
+
 Semaine 4-5 : Fonctions
 Objectif principal : Permettre la définition et l'appel de fonctions.
 
