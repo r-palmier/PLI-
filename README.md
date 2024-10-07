@@ -8,6 +8,8 @@ Plan :
 Semaine 1-2 : Calculatrice de base et entrée simple
 Objectif principal : Implémenter les bases de l’interpréteur avec des expressions arithmétiques et des variables.
 
+
+
 Étape 1 : Création du Lexer (Analyseur lexical)
 Comprendre les entrées : D'abord, on doit comprendre quel type d’entrées on va recevoir. Pour cette étape, il s’agit principalement d’opérateurs arithmétiques, de nombres et de variables.
 Lexage des tokens : Il faut écrire une fonction qui prend une chaîne de caractères et la découpe en éléments ("tokens"). Par exemple :
@@ -31,6 +33,8 @@ Fonction print : Ajoute la fonction print() pour afficher des variables ou des r
 Tester avec des cas simples : Teste ton interpréteur avec des exemples simples comme x = 10; print(x); print(5 + 2);.
 
 
+
+
 Semaine 2-3 : Gestion des entrées
 Objectif principal : Ajouter différents formats d’entrée pour les instructions (mode fichier et interactif).
 
@@ -45,6 +49,8 @@ Commandes spéciales : Ajoute une commande exit pour quitter le mode interactif.
 Étape 3 : Tests complets
 Combiner tout : Assure-toi que ton interpréteur fonctionne à la fois avec des fichiers et en mode interactif.
 Affichage de l’AST (bonus) : Si tu utilises un AST, ajoute une fonction pour afficher l’arbre de manière lisible.
+
+
 
 
 Semaine 3-4 : Structures de contrôle et chaînes de caractères
@@ -65,6 +71,8 @@ Manipulation des chaînes : Implémente la gestion des opérations simples comme
 Étape 4 : Gestion de la portée des variables
 Portée locale vs globale : Implémente un système de portée pour que les variables aient une durée de vie différente en fonction de l’endroit où elles sont définies (dans des boucles, conditions, etc.).
 Piles de symboles : Utilise une pile pour suivre les portées imbriquées des variables.
+
+
 
 
 Semaine 4-5 : Fonctions
