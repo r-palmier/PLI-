@@ -24,6 +24,7 @@ typedef struct
 
 } Token;
 
+// Scanne une chaîne et génère une liste de token 
 Token* lexer(const char* input, int* token_count){
     Token* tokens = malloc(sizeof(Token) * 100);
     *token_count = 0;
