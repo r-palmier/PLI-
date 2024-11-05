@@ -1,3 +1,9 @@
+#Fichier test
+test.c
+
+#dossier vscode
+.vscode
+
 # Prerequisites
 *.d
 
